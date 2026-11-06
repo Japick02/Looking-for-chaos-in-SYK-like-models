@@ -27,7 +27,7 @@ Computation of level spacing ratio statistics for an SYK-like model with 2-fermi
 
 **File:** [Hybrid_SYK_CtI.ipynb]([Hybrid_SYK_CtI.ipynb)
 
-
+Study of the Chaos to Integrability transition obtained tuning the couplings ratio.
 
 ### 4. Complex SYK
 
