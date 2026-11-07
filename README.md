@@ -1,24 +1,29 @@
 # Looking-for-chaos-in-SYK-like-models
 
-Numerical study of chaotic properties of SYK-like models through level spacing ratio distribution and the related RMT ensembles. In some of the models Chaos to Integrability transitions have been studied. Only for standard SYK the spectral form factor has been computed.
+Numerical study of chaotic properties of SYK-like models through level spacing ratio distribution and the related RMT ensembles. Given the energy spectrum labelled by $E_n$, level spacings are defined as: $\Delta E_n = E_{n+1}-E_n$. The whole projects uses the following definitions for level spacing ratios:
+$$
+  r_n = \frac{\Delta E_{n+1}}{\Delta E_n}, \; \tilde r_n = \text{min} \left\{ r_n, \frac{1}{r_{n+1}}\right\}
+$$
+
+In some of the models Chaos to Integrability crossovers have been studied. Only for standard SYK the spectral form factor has been computed.
 
 Studied models are: SYK, Sparse SYK, Hybrid SYK, Complex SYK, SYK on growing simplicial complexes.
 
-All the notebooks are based on CuPy library, which allows GPU acceleration. All the code has been tested on a Nvidia RTX 5070.
+All the notebooks are based on CuPy library, which allows GPU acceleration. All the code has been tested on a Nvidia RTX 5070. It is possible to run all the code with NumPy, by substituting CuPy call "cp" with "np". Performance might be worse.
 
 ## Notebooks
 
 ### 1. Standard SYK
-**File** [Complete_simp.ipynb](Complete_simp-ipynb)
+**File** [Complete_simp.ipynb](Complete_simp.ipynb)
 
-Computation of level spacing ratio statistics for a model built from SYK allowing 2,3 and 4-fermion interactions. Every interaction type can be turned off separately.
+Computation of level spacing ratio statistics for a model built from SYK allowing two,three and four-fermion interactions. Every interaction type can be turned off separately.
 
 <p align="center">
   <img src="figures/SYK_r_distrib.png" width="48%" alt="r_distrib">
   <img src="figures/SYK_tilde_r_distrib.png" width="48%" alt="tilde_r_distrib">
 </p>
 
-**Reference:** G. Saros. *AdS2 holography and the SYK model* (2019): [arXiv:1711.08482](https://arxiv.org/abs/1711.08482)
+**Reference:** G. Sarosi. *AdS2 holography and the SYK model* (2019): [arXiv:1711.08482](https://arxiv.org/abs/1711.08482)
 
 **File:** [SYK_SFF.ipynb](SYK_SFF.ipynb)
 
@@ -33,7 +38,7 @@ Computation of standard SYK Spectral Form Factor.
 ### 2. Sparse SYK
 **File:** [Sparse_SYK.ipynb](Sparse_SYK.ipynb)
 
-Study of an SYK-like model on an Erdos-Renyi network. Computation of level spacing ratio distribution. Analysis of a CtI transition driven by p, the probability for a an hyper-edge to exist.
+Study of an SYK-like model built on a random 4-uniform hypergraph, where each possible four-fermion interaction is included independently with probability p. Computation of level spacing ratio distribution. Analysis of a CtI crossover driven by p.
 
 <p align="center">
   <img src="figures/Sparse_SYK_CtI.jpeg" width="60%" alt="Sparse_SYK_CtI">
@@ -42,13 +47,13 @@ Study of an SYK-like model on an Erdos-Renyi network. Computation of level spaci
 **Reference:** P. Orman, H. Gharibyan, J. Preskill. *Quantum chaos in the sparse SYK model* (2024): [arXiv:2403.13884](https://arxiv.org/abs/2403.13884)
 
 ### 3. Hybrid SYK
-**File:** [Hybrid_SYK.ipynb](Hybrid_SYK.ipynb)
+**File:** [Hybrid_SYK.ipynb](Hybrid_SYK/Hybrid_SYK.ipynb)
 
-Computation of level spacing ratio statistics for an SYK-like model with 2-fermion interactions and 4-fermion interactions. The couplings expectation values are taken to be diffirent for the two.
+Computation of level spacing ratio statistics for an SYK-like model combining quadratic and quartic fermionic interactions. Random couplings variances are independently tunable.
 
-**File:** [Hybrid_SYK_CtI.ipynb]([Hybrid_SYK_CtI.ipynb)
+**File:** [Hybrid_SYK_CtI.ipynb]([Hybrid_SYK/Hybrid_SYK_CtI.ipynb)
 
-Study of the CtI transition driven by the couplings ratio.
+Study of the CtI crossover driven by the couplings ratio.
 
 <p align="center">
   <img src="figures/Hybrid_SYK_oddN_graph.png" width="80%" alt="Hybrid_SYK_CtI">
@@ -57,6 +62,7 @@ Study of the CtI transition driven by the couplings ratio.
 **Reference:** F. Sun, Y. Yi-Xiang, J. Ye, W.-M. Liu. *A new universal ratio in Random Matrix Theory and chaotic to integrable transition in Type-I and Type-II hybrid Sachdev-Ye-Kitaev models* (2021): [arXiv:1809.07577](https://arxiv.org/abs/1809.07577)
 
 ### 4. Complex SYK
+**File:** [Complex_SYK.ipynb](Complex_SYK.ipynb)
 
 Computation of the level spacing ratio statistics for Complex SYK model, distinguishing different charge sectors.
 
@@ -76,7 +82,5 @@ D. Febbe, D. Fanelli, T. Carletti. *Model of Simplicial Complexes with dimension
 
 [GitHub repository](https://github.com/diegofebbe/Random_walk_on_simplicial_complexes)
 
-
-
 ## Dependencies
-Python, NumPy, CuPy, Matplotlib
+Python, NumPy, SciPy, CuPy, NetworkX, Matplotlib, Seaborn.
