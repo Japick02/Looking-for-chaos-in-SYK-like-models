@@ -11,11 +11,18 @@ All the notebooks are based on CuPy library, which allows GPU acceleration. All 
 ### 1. Standard SYK
 **File** [Complete_simp.ipynb](Complete_simp-ipynb)
 
-Computation of level spacing ratio statistics for a model built from SYK allowing 2,3 and 4-fermion interactions. Every interaction type can be turned off separately
+Computation of level spacing ratio statistics for a model built from SYK allowing 2,3 and 4-fermion interactions. Every interaction type can be turned off separately.
+
+<p align="center">
+  <img src="figures/SYK_r_distrib.png" width="48%" alt="r_distrib">
+  <img src="figures/SYK_tilde_r_distrib.png" width="48%" alt="tilde_r_distrib">
+</p>
 
 **File:** [SYK_SFF.ipynb](SYK_SFF.ipynb)
 
 Computation of standard SYK Spectral Form Factor.
+
+![SFF_SYK](figures/SFF_N20_beta5.jpeg)
 
 ### 2. Sparse SYK
 **File:** [Sparse_SYK.ipynb](Sparse_SYK.ipynb)
