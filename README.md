@@ -28,7 +28,7 @@ Computation of standard SYK Spectral Form Factor.
   <img src="figures/SFF_N18_beta5.jpeg" width="60%" alt="SYK_SFF">
 </p>
 
-Reference:
+**Reference:** J.S. Cotler, G. Gur-Ari, M. Hanada, J. Polchinski, P. Saad, S. H. Shenker, S. Shenker, D. Stanford. A. Streicher, M. Tezuka. *Black Holes and Random Matrices* (2018): [arXiv:1611.04650](https://arxiv.org/abs/1611.04650)
 
 ### 2. Sparse SYK
 **File:** [Sparse_SYK.ipynb](Sparse_SYK.ipynb)
