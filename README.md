@@ -18,6 +18,8 @@ Computation of level spacing ratio statistics for a model built from SYK allowin
   <img src="figures/SYK_tilde_r_distrib.png" width="48%" alt="tilde_r_distrib">
 </p>
 
+**Reference:** G. Saros. *AdS2 holography and the SYK model* (2019): [arXiv:1711.08482](https://arxiv.org/abs/1711.08482)
+
 **File:** [SYK_SFF.ipynb](SYK_SFF.ipynb)
 
 Computation of standard SYK Spectral Form Factor.
@@ -25,6 +27,8 @@ Computation of standard SYK Spectral Form Factor.
 <p align="center">
   <img src="figures/SFF_N18_beta5.jpeg" width="60%" alt="SYK_SFF">
 </p>
+
+Reference:
 
 ### 2. Sparse SYK
 **File:** [Sparse_SYK.ipynb](Sparse_SYK.ipynb)
@@ -34,6 +38,8 @@ Study of an SYK-like model on an Erdos-Renyi network. Computation of level spaci
 <p align="center">
   <img src="figures/Sparse_SYK_CtI.jpeg" width="60%" alt="Sparse_SYK_CtI">
 </p>
+
+**Reference:** P. Orman, H. Gharibyan, J. Preskill. *Quantum chaos in the sparse SYK model* (2024): [arXiv:2403.13884](https://arxiv.org/abs/2403.13884)
 
 ### 3. Hybrid SYK
 **File:** [Hybrid_SYK.ipynb](Hybrid_SYK.ipynb)
@@ -48,12 +54,27 @@ Study of the CtI transition driven by the couplings ratio.
   <img src="figures/Hybrid_SYK_oddN_graph.png" width="80%" alt="Hybrid_SYK_CtI">
 </p>
 
+**Reference:** F. Sun, Y. Yi-Xiang, J. Ye, W.-M. Liu. *A new universal ratio in Random Matrix Theory and chaotic to integrable transition in Type-I and Type-II hybrid Sachdev-Ye-Kitaev models* (2021): [arXiv:1809.07577](https://arxiv.org/abs/1809.07577)
+
 ### 4. Complex SYK
 
 Computation of the level spacing ratio statistics for Complex SYK model, distinguishing different charge sectors.
 
-### 5. SYK on growing simplicial complexes
+**Reference:** M. Berkooz, V. Narovlansky, H. Raj. *Complex Sachdev-Ye-Kitaev model in the double scaling limit* (2020): [arXiv:2006.13983](https://arxiv.org/abs/2006.13983)
 
+### 5. SYK on growing simplicial complexes
+Analysis of average level spacing ratio for a model built from SYK on growing simplicial complexes.
+
+<p align="center">
+  <img src="figures/N20_tilder_vs_netvar.png" width="48%" alt="tilder_vs_netvar">
+  <img src="figures/N20_tilder_vs_modu.png" width="48%" alt="ttilder_vs_modu">
+</p>
+
+**References for theory and code about these networks:**  D. Febbe, D. Fanelli, T. Carletti. *Random Walks Across Dimensions: Exploring Simplicial Complexes* (2026): [arXiv:2601.16086](https://arxiv.org/abs/2601.16086).
+
+D. Febbe, D. Fanelli, T. Carletti. *Model of Simplicial Complexes with dimension-wise preferential attachment* (2026): [arXiv:2605.17004](https://arxiv.org/abs/2605.17004). 
+
+[GitHub repository](https://github.com/diegofebbe/Random_walk_on_simplicial_complexes)
 
 
 
