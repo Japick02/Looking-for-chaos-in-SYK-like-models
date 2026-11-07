@@ -1,6 +1,6 @@
 # Looking-for-chaos-in-SYK-like-models
 
-Numerical study of chaotic properties of SYK-like models through level spacing ratio distribution and the related RMT ensembles. In some of the models different Chaos to Integrability transitions have been studied. Only for standard SYK the spectral form factor has been computed.
+Numerical study of chaotic properties of SYK-like models through level spacing ratio distribution and the related RMT ensembles. In some of the models Chaos to Integrability transitions have been studied. Only for standard SYK the spectral form factor has been computed.
 
 Studied models are: SYK, Sparse SYK, Hybrid SYK, Complex SYK, SYK on growing simplicial complexes.
 
