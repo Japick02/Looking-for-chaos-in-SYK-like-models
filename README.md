@@ -22,10 +22,14 @@ Computation of level spacing ratio statistics for a model built from SYK allowin
 
 Computation of standard SYK Spectral Form Factor.
 
-![SFF_SYK](figures/SFF_N20_beta5.jpeg)
+![SFF_SYK](figures/SFF_N18_beta5.jpeg)
 
 ### 2. Sparse SYK
 **File:** [Sparse_SYK.ipynb](Sparse_SYK.ipynb)
+
+Study of an SYK-like model on an $Erd\H{o}s--R\'enyi$ network. Computation of level spacing ratio distribution. Analysis of a CtI transition driven by $p$, the probability for a an hyper-edge to exist.
+
+
 
 ### 3. Hybrid SYK
 **File:** [Hybrid_SYK.ipynb](Hybrid_SYK.ipynb)
