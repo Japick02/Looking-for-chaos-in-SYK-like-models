@@ -3,7 +3,9 @@
 Numerical study of chaotic properties of SYK-like models through level spacing ratio distribution and the related RMT ensembles. Given the energy spectrum labelled by $E_n$, level spacings are defined as: $\Delta E_n = E_{n+1}-E_n$. The whole projects uses the following definitions for level spacing ratios:
 
 $$
-  r_n = \frac{\Delta E_{n+1}}{\Delta E_n},  \tilde r_n = \min\( r_n, \frac{1}{r_{n}}\)
+  r_n = \frac{\Delta E_{n+1}}{\Delta E_n},
+  \qquad
+  \tilde r_n = \min\left( r_n, \frac{1}{r_{n}}\right)
 $$
 
 In some of the models Chaos to Integrability crossovers have been studied. Only for standard SYK the spectral form factor has been computed.
@@ -52,7 +54,7 @@ Study of an SYK-like model built on a random 4-uniform hypergraph, where each po
 
 Computation of level spacing ratio statistics for an SYK-like model combining quadratic and quartic fermionic interactions. Random couplings variances are independently tunable.
 
-**File:** [Hybrid_SYK_CtI.ipynb]([Hybrid_SYK/Hybrid_SYK_CtI.ipynb)
+**File:** [Hybrid_SYK_CtI.ipynb](Hybrid_SYK/Hybrid_SYK_CtI.ipynb)
 
 Study of the CtI crossover driven by the couplings ratio.
 
@@ -70,6 +72,8 @@ Computation of the level spacing ratio statistics for Complex SYK model, disting
 **Reference:** M. Berkooz, V. Narovlansky, H. Raj. *Complex Sachdev-Ye-Kitaev model in the double scaling limit* (2020): [arXiv:2006.13983](https://arxiv.org/abs/2006.13983)
 
 ### 5. SYK on growing simplicial complexes
+**File:** [Growing_Simp_Comp.ipynb](Growing_simp_comp/Growing_Simp_Comp.ipynb)
+
 Analysis of average level spacing ratio for a model built from SYK on growing simplicial complexes.
 
 <p align="center">
