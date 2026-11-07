@@ -3,7 +3,7 @@
 Numerical study of chaotic properties of SYK-like models through level spacing ratio distribution and the related RMT ensembles. Given the energy spectrum labelled by $E_n$, level spacings are defined as: $\Delta E_n = E_{n+1}-E_n$. The whole projects uses the following definitions for level spacing ratios:
 
 $$
-  r_n = \frac{\Delta E_{n+1}}{\Delta E_n}, \; \tilde r_n = \text{min} \left\{ r_n, \frac{1}{r_{n}}\right\}
+  r_n = \frac{\Delta E_{n+1}}{\Delta E_n}, \; \tilde r_n = \text{min} \{ r_n, \frac{1}{r_{n}}\}
 $$
 
 In some of the models Chaos to Integrability crossovers have been studied. Only for standard SYK the spectral form factor has been computed.
