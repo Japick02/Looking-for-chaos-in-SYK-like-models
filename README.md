@@ -22,14 +22,18 @@ Computation of level spacing ratio statistics for a model built from SYK allowin
 
 Computation of standard SYK Spectral Form Factor.
 
-![SFF_SYK](figures/SFF_N18_beta5.jpeg)
+<p align="center">
+  <img src="figures/SFF_N18_beta5.jpeg" width="60%" alt="SYK_SFF">
+</p>
 
 ### 2. Sparse SYK
 **File:** [Sparse_SYK.ipynb](Sparse_SYK.ipynb)
 
-Study of an SYK-like model on an $Erd\H{o}s--R\'enyi$ network. Computation of level spacing ratio distribution. Analysis of a CtI transition driven by $p$, the probability for a an hyper-edge to exist.
+Study of an SYK-like model on an Erdos-Renyi network. Computation of level spacing ratio distribution. Analysis of a CtI transition driven by p, the probability for a an hyper-edge to exist.
 
-
+<p align="center">
+  <img src="figures/Sparse_SYK_CtI.jpeg" width="60%" alt="Sparse_SYK_CtI">
+</p>
 
 ### 3. Hybrid SYK
 **File:** [Hybrid_SYK.ipynb](Hybrid_SYK.ipynb)
@@ -38,11 +42,19 @@ Computation of level spacing ratio statistics for an SYK-like model with 2-fermi
 
 **File:** [Hybrid_SYK_CtI.ipynb]([Hybrid_SYK_CtI.ipynb)
 
-Study of the Chaos to Integrability transition obtained tuning the couplings ratio.
+Study of the CtI transition driven by the couplings ratio.
+
+<p align="center">
+  <img src="figures/Hybrid_SYK_oddN_graph.png" width="80%" alt="Hybrid_SYK_CtI">
+</p>
 
 ### 4. Complex SYK
 
+Computation of the level spacing ratio statistics for Complex SYK model, distinguishing different charge sectors.
+
 ### 5. SYK on growing simplicial complexes
+
+
 
 
 ## Dependencies
